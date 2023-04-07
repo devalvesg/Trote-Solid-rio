@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Calculadora Pontos Adicionais</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="add">
+            <div id="profile">
+                <a href="index.html"><img src="./assets/logo-trote.png"
+                alt="Trote Solidário 2023"/></a>
+            </div>
+            <div class="switch">
+                <div class="botao">
+                    <input type="checkbox" class="checkbox" id="chk">
+                    <label class="label" for="chk">
+                        <img id="moon" src="./assets/moon-stars.svg">
+                        <i id="sun"><img src="./assets/sun.svg"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+            </div>
+            <h1>Calcule os pontos adicionais</h1>
+            <div class="inputGeral">
+            <div>
+                <input type="checkbox" onclick="Checked('padrao')" class="checkboxx" id="padrao">
+                <input placeholder="Conjunto Padrão" class="entrada" type="number" id="qtdPadrao" disabled="true">
+            </div>
+
+            <div>
+                <input type="checkbox" onclick="Checked('kits')" class="checkboxx" id="kits"> 
+                <input placeholder="Kit Alimentação" class="entrada" type="number" id="qtdKits" disabled="true">
+            </div>
+
+            <div>
+                <input type="checkbox" onclick="Checked('suplementos')" class="checkboxx" id="suplementos"> 
+                <input placeholder="Suplemento" class="entrada" type="number" id="qtdSuplementos" disabled="true">
+            </div>
+
+            <div>
+                <input type="checkbox" onclick="Checked('arroz')" class="checkboxx" id="arroz"> 
+                <input placeholder="Arroz(Kg)" class="entrada" type="number" id="qtdArroz" disabled="true">
+            </div>
+
+            <div>
+                <input type="checkbox" onclick="Checked('feijao')" class="checkboxx" id="feijao"> 
+                <input placeholder="Feijão(Kg)" class="entrada" type="number" id="qtdFeijao" disabled="true">
+            </div>
+            <div>
+                <input type="checkbox" onclick="Checked('macarrao')" class="checkboxx" id="macarrao"> 
+                <input placeholder="Macarrão(Kg)" class="entrada" type="number" id="qtdMacarrao" disabled="true">
+            </div>
+            <div>
+                <input type="checkbox" onclick="Checked('oleo')" class="checkboxx" id="oleo"> 
+                <input placeholder="Óleo(900g)" class="entrada" type="number" id="qtdOleo" disabled="true">
+            </div>
+            <button onclick="calcularPont()">Calcular Pontos</button>
+            <p id="total">
+            
+            </p>
+            
+        </div>
+    </div>
+    <script src="adicional.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

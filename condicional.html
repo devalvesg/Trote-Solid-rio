@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="cond">
+            <div id="profile">
+                <a href="index.html"><img src="./assets/logo-trote.png" alt="Trote Solidário 2023" /></a>
+            </div>
+            <div id="switch">
+                <input type="checkbox" class="checkbox" id="chk">
+                <label class="label" for="chk">
+                    <i id="moon"><img src="./assets/moon-stars.svg"></i>
+                    <i id="sun"><img src="./assets/sun.svg"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+            <h1>Informe o total de items entregues</h1>
+            <input type="number" id="kits">
+            <div>
+                <button onclick="Condicional()">Calcular pontos</button>
+            </div>
+            <div>
+                <p id="pontos"> </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="condicional.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+     <title>Calculadora do IMC</title>
+</head>
+
+<body>
+     <div id="container">
+          <div id="profile">
+               <a href="index.html"><img src="./assets/logo-trote.png" alt="Trote Solidário 2023" /></a>
+          </div>
+          <div id="switch">
+               <input type="checkbox" class="checkbox" id="chk">
+               <label class="label" for="chk">
+                    <i id="moon"><img src="./assets/moon-stars.svg"></i>
+                    <i id="sun"><img src="./assets/sun.svg"></i>
+                    <div class="ball"></div>
+               </label>
+          </div>
+          <div id="imc">
+
+               <h1>Calculadora IMC</h1>
+
+               <div>
+                    <input placeholder="Informe seu peso" type="number" id="peso">
+               </div>
+               <div>
+                    <input placeholder="Informe sua altura" type="number" id="altura">
+               </div>
+               <div>
+                    <!-- No clique do botão, chama-se a função calculaIMC localizado no arquivo .js -->
+                    <button onclick="calculaIMC()">Calcular IMC</button>
+               </div>
+               <div>
+                    <p id="total">
+
+                    </p>
+               </div>
+          </div>
+          <script src="./script.js"></script>
+</body>
+
+</html>
