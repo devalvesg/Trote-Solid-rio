@@ -5,6 +5,7 @@ Esse site foi desenvolvido durante as aulas, ele possui um index com 7 direciona
 
 Esse site foi desenvolvido com base em HTML, CSS E JavaScript.<br>
 
+Link para visualizar todas as funcionalidades: https://devalvesg.github.io/Trote-Solid-rio/
 
 ![image](https://user-images.githubusercontent.com/109531207/230620496-ec9e98ec-583e-4d99-9ac4-bdedc61fbb14.png) <br>
 ![image](https://user-images.githubusercontent.com/109531207/230620578-06341601-acf0-4cf4-ae5e-5c75a995fc82.png)
